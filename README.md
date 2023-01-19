@@ -6,7 +6,7 @@ This repository contains a very simple hello world for a docker container with a
  
 Build the image with following command:
 ```bash
-docker build -t py_flask_helloworld:latest
+docker build . -t py_flask_helloworld:latest
 ```
 
 Run the container using this command :
